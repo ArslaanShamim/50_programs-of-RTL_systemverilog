@@ -1,5 +1,6 @@
-// Code your design here
-                //simple (1-100)counter)
+                                 // Code your design here
+                                 //simple (1-100) counter
+
 module simple_counter ( rst,clk,count);
   input logic clk;
   input logic rst;
@@ -17,7 +18,7 @@ module simple_counter ( rst,clk,count);
       end
           end
       
-    else begin                   //if reset is equal to 1 then count variable                                       is equal to 0
+    else begin                   //if reset is equal to 1 then count variable is equal to 0
       count = 7'd0;
   end
       
